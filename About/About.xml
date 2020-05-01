@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>Cybernet Part Addon</name>
+	<author>Arendjvr2000</author>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>Arendjvr2000.CyberNet.Addon</packageId>
+		<modDependencies>
+		<li>
+			<packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>K.GlitterNet</packageId>
+			<displayName>GlitterNet</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1725544583</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>K.CyberNet</packageId>
+			<displayName>CyberNet</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1725545225</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+		<loadAfter>
+		<li>K.CyberNet</li>
+	</loadAfter>
+    <description> A small mod that adds additional networked limbs and other parts </description>
+</ModMetaData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Networked (Bionic) Level Body Parts -->
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedLung</defName>
+    <label>Install Networked Lung</label>
+    <description>Install a Networked Lung</description>
+    <jobString>Installing Networked Lung</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedLung</addsHediff>
+  </RecipeDef>
+
+</Defs>
