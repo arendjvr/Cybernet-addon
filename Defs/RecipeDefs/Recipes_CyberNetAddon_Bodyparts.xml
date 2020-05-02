@@ -41,4 +41,80 @@
     <addsHediff>CNNetworkedLung</addsHediff>
   </RecipeDef>
 
+    <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedKidney</defName>
+    <label>Install Networked Kidney</label>
+    <description>Install a Networked Kidney</description>
+    <jobString>Installing Networked Kidney</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedKidney</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedKidney</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedKidney</addsHediff>
+  </RecipeDef>
+
+    <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedLiver</defName>
+    <label>Install Networked Liver</label>
+    <description>Install a Networked Liver</description>
+    <jobString>Installing Networked Liver</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedLiver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedLiver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedLiver</addsHediff>
+  </RecipeDef>
+
 </Defs>
