@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Networked (Bionic) Level Body Parts -->
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallAdvancedNetworkedLung</defName>
+    <label>Install Advanced Networked Lung</label>
+    <description>Install an Advanced Networked Lung</description>
+    <jobString>Installing Advanced Networked Lung</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNAdvancedNetworkedLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNAdvancedNetworkedLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNAdvancedNetworkedLung</addsHediff>
+  </RecipeDef>
+
+    <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallAdvancedNetworkedKidney</defName>
+    <label>Install Advanced Networked Kidney</label>
+    <description>Install an Advanced Networked Kidney</description>
+    <jobString>Installing Advanced Networked Kidney</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNAdvancedNetworkedKidney</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNAdvancedNetworkedKidney</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNAdvancedNetworkedKidney</addsHediff>
+  </RecipeDef>
+
+    <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallAdvancedNetworkedLiver</defName>
+    <label>Install Advanced Networked Liver</label>
+    <description>Install an Advanced Networked Liver</description>
+    <jobString>Installing Advanced Networked Liver</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNAdvancedNetworkedLiver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNAdvancedNetworkedLiver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNAdvancedNetworkedLiver</addsHediff>
+  </RecipeDef>
+
+</Defs>

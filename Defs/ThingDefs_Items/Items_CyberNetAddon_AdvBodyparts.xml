@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- Networked (Bionic) Level Body Parts -->
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNAdvancedNetworkedLung</defName>
+		<label>Advanced Networked Lung</label>
+		<description>An advanced networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic lungs, and it's significantly more efficient. The cost comes from the infrastructure required for it to function.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNAdvancedNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+		<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNAdvancedNetworkedKidney</defName>
+		<label>Advanced Networked Kidney</label>
+		<description>An advanced networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic kidneys, and it's significantly more efficient. The cost comes from the infrastructure required for it to function.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNAdvancedNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+		<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNAdvancedNetworkedLiver</defName>
+		<label>Advanced Networked Liver</label>
+		<description>An advanced networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic livers, and it's significantly more efficient. The cost comes from the infrastructure required for it to function.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNAdvancedNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+</Defs>
