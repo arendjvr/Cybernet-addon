@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNAFleshAdapterImplant</defName>
+        <label>Flesh Adaptation</label>
+        <description>Further study into social interactions revealed that interactions are heavily influenced by physical appearance. By using this information your researchers discovered another purpose for the nanites.</description>
+        <baseCost>6000</baseCost>
+        <prerequisites>
+            <li>CNSocialAnalyzerImplant</li>
+        </prerequisites>
+        <researchViewX>7.8</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

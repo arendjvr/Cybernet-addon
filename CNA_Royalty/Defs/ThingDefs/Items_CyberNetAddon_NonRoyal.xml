@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNAFleshAdapter</defName>
+		<label>Flesh Adapter</label>
+		<description>This implant consists of nanites that shape the appearance of the host to reflect a more attractive form.</description>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNAFleshAdapterImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+</Defs>

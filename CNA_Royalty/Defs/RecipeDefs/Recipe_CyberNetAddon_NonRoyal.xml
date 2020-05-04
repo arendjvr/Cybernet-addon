@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Installation and uninstalment of the flesh adapter -->
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallFleshAdapter</defName>
+    <label>Install FleshAdapter</label>
+    <description>Install a Flesh Adapter</description>
+    <jobString>Installing Flesh Adapter</jobString>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNAFleshAdapter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNAFleshAdapter</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNAFleshAdapter</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetPartRemoval">
+    <defName>CNARemoveFleshAdapter</defName>
+    <label>Remove Flesh Adapter</label>
+    <description>Remove Flesh Adapter</description>
+    <jobString>Removing Flesh Adapter</jobString>
+    <workAmount>3000</workAmount>
+    <removesHediff>CNAFleshAdapter</removesHediff>
+  </RecipeDef>
+</Defs>
