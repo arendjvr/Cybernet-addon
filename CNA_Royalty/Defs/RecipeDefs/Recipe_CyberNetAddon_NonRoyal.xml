@@ -3,7 +3,7 @@
 
   <!-- Installation and uninstalment of the flesh adapter -->
 
-  <RecipeDef ParentName="CyberNetSurgery">
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
     <defName>CNInstallFleshAdapter</defName>
     <label>Install FleshAdapter</label>
     <description>Install a Flesh Adapter</description>

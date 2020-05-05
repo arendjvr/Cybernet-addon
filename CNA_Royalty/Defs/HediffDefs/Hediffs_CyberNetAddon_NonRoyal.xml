@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-        <HediffDef ParentName="ImplantHediffBase">
+        <HediffDef ParentName="CNHediffOther">
         <defName>CNAFleshAdapter</defName>
         <label>Flesh Adapter</label>
         <labelNoun>A Flesh Adapter</labelNoun>
