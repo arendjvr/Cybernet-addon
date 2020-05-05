@@ -49,4 +49,54 @@
     <workAmount>3000</workAmount>
     <removesHediff>CNAFleshAdapter</removesHediff>
   </RecipeDef>
+
+
+
+    <!-- Installation and uninstalment of the networked coagulator-->
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>CNAInstallNetworkedCoagulator</defName>
+    <label>Install Networked Coagulator</label>
+    <description>Install a Networked Coagulator</description>
+    <jobString>Installing Networked Coagulator</jobString>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNANetworkedCoagulator</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNANetworkedCoagulator</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNANetworkedCoagulator</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetPartRemoval">
+    <defName>CNARemoveNetworkedCoagulator</defName>
+    <label>Remove Networked Coagulator</label>
+    <description>Remove Networked Coagulator</description>
+    <jobString>Removing Networked Coagulator</jobString>
+    <workAmount>3000</workAmount>
+    <removesHediff>CNANetworkedCoagulator</removesHediff>
+  </RecipeDef>
 </Defs>

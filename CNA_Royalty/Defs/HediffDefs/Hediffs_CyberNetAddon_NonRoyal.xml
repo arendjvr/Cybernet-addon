@@ -59,4 +59,52 @@
             </li>
         </stages>
     </HediffDef>
+
+        <HediffDef ParentName="CNHediffOther">
+        <defName>CNANetworkedCoagulator</defName>
+        <label>Networked Coagulator</label>
+        <labelNoun>A Networked Coagulator</labelNoun>
+        <description>A Coagulator that has been augmented to use a specific Glitternet network. The implant now requires a network to function but it works better than a self contained coagulator.</description>
+        <spawnThingOnRemoved>CNANetworkedCoagulator</spawnThingOnRemoved>
+        <comps>
+            <li Class="CyberNet.HediffCompPropertiesCyberNetImplant">
+                <compClass>CyberNet.HediffCompCyberNetImplant</compClass>
+                <DefaultSeverity>1</DefaultSeverity>
+                <BandwidthUsage>1.5</BandwidthUsage>
+                <ProcessorUsage>0.75</ProcessorUsage>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>disconnected</label>
+                <minSeverity>0</minSeverity>
+                    <totalBleedFactor>1</totalBleedFactor>
+            </li>
+            <li>
+                <label>throttled</label>
+                <minSeverity>0.5</minSeverity>
+                    <totalBleedFactor>0.8</totalBleedFactor>
+            </li>
+            <li>
+                <label>sluggish</label>
+                <minSeverity>0.75</minSeverity>
+                    <totalBleedFactor>0.65</totalBleedFactor>
+            </li>
+            <li>
+                <label>connected</label>
+                <minSeverity>1</minSeverity>
+                    <totalBleedFactor>0.45</totalBleedFactor>
+            </li>
+            <li>
+                <label>overclocked</label>
+                <minSeverity>1.15</minSeverity>
+                    <totalBleedFactor>0.40</totalBleedFactor>
+            </li>
+            <li>
+                <label>supercharged</label>
+                <minSeverity>1.3</minSeverity>
+                    <totalBleedFactor>0.35</totalBleedFactor>
+            </li>
+        </stages>
+    </HediffDef>
 </Defs>

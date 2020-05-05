@@ -20,4 +20,25 @@
 			<researchPrerequisite>CNAFleshAdapterImplant</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNANetworkedCoagulator</defName>
+		<label>Networked Coagulator</label>
+		<description>A coagulator that has been heavily augmented to work with a specific glitternet network. Most of the internal processing has been removed to fit more chemicals and better deployment systems. This implant goes into standby when no network is detected.</description>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Coagulator>1</Coagulator>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNANetworkedHealingFactors</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 </Defs>
