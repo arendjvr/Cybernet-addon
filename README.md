@@ -17,6 +17,8 @@ Royalty inspired implants
 
 More brain impants
 
+Replacement bodyparts that have a more specific function
+
 More parts like lymphatic nodes
 
 Implants related to other mods 
