@@ -99,4 +99,53 @@
     <workAmount>3000</workAmount>
     <removesHediff>CNANetworkedCoagulator</removesHediff>
   </RecipeDef>
+
+
+    <!--instalation and uninstallment of networked healing enhancer-->
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>CNAInstallNetworkedHealingEnhancer</defName>
+    <label>Install Networked Healing Enhancer</label>
+    <description>Install a Networked Healing Enhancer</description>
+    <jobString>Installing Networked Healing Enhancer</jobString>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNANetworkedHealingEnhancer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNANetworkedHealingEnhancer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNANetworkedHealingEnhancer</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetPartRemoval">
+    <defName>CNARemoveNetworkedHealingEnhancer</defName>
+    <label>Remove Networked Healing Enhancer</label>
+    <description>Remove Networked Healing Enhancer</description>
+    <jobString>Removing Networked Healing Enhancer</jobString>
+    <workAmount>3000</workAmount>
+    <removesHediff>CNANetworkedHealingEnhancer</removesHediff>
+  </RecipeDef>
 </Defs>

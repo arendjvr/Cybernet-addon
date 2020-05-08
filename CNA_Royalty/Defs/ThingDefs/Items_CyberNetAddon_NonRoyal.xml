@@ -41,4 +41,25 @@
 			<researchPrerequisite>CNANetworkedHealingFactors</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNANetworkedHealingEnhancer</defName>
+		<label>Networked Healing Enhancer</label>
+		<description>A Healing enhancer that has been heavily augmented to work with a specific glitternet network. The original nanomachines have been replaced with smaller networked ones this allows for more nanomachines in less space, resulting in higher performance. This implant goes into standby when no network is detected.</description>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<HealingEnhancer>1</HealingEnhancer>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNANetworkedHealingFactors</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 </Defs>
