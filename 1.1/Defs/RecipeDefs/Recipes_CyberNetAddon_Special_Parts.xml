@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNAInstallNetworkedPainRegulator</defName>
+    <label>Install Networked Pain Regulator</label>
+    <description>Install a Networked Pain Regulator</description>
+    <descriptionHyperlinks><ThingDef>CNANetworkedPainRegulator</ThingDef></descriptionHyperlinks>
+    <jobString>Installing Networked Pain Regulator</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNANetworkedPainRegulator</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNANetworkedPainRegulator</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNANetworkedPainRegulator</addsHediff>
+  </RecipeDef>
+
+</Defs>
