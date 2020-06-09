@@ -113,7 +113,7 @@
         <defName>CNANetworkedHealingEnhancer</defName>
         <label>Networked Healing Enhancer</label>
         <labelNoun>A Networked Healing Enhancer</labelNoun>
-        <description>A Coagulator that has been augmented to use a specific Glitternet network. The implant now requires a network to function but it works better than a self contained coagulator.</description>
+        <description>A Healing enhancer that has been augmented to use a specific Glitternet network. The implant now requires a network to function but it works better than a self contained Healing enhancer.</description>
         <spawnThingOnRemoved>CNANetworkedHealingEnhancer</spawnThingOnRemoved>
         <comps>
             <li Class="CyberNet.HediffCompPropertiesCyberNetImplant">
