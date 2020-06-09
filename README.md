@@ -11,13 +11,25 @@ Networked Kidneys
 
 Networked Liver
 
+Pain Regulator (reduces pain by a flat offset)
+
+
+
+<h2>Royalty parts:</h2>
+
+Networked coagulator & healing enhancer
+
+Flesh Adapter (increases beauty)
+
+
+
 <h1>Plans for the future:</h1>
 
 Royalty inspired implants
 
 More brain impants
 
-Replacement bodyparts that have a more specific function (pain reduction, mood, etc.)
+Replacement bodyparts that have a more specific function (pain inducer, mood, etc.)
 
 More parts like lymphatic nodes
 
