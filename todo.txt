@@ -4,6 +4,7 @@ royalty stomachs
 royalty skin armors
 royalty hidden weapons (if possible)
 
-add organs that have a specific function:
-pain reduction
+royalty skin armors details:
+by using a stoneskin gland and a flesh adapter the ugliness effect will be lowered or neutralized when working optimally.
+
 
