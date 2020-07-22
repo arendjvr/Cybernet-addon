@@ -20,7 +20,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNASpecialNetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 </Defs>

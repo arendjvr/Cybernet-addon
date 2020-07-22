@@ -27,6 +27,6 @@
 	</modDependencies>
 		<loadAfter>
 		<li>K.CyberNet</li>
-	</loadAfter>
+		</loadAfter>
     <description> A small mod that adds additional networked limbs and other parts </description>
 </ModMetaData>

@@ -18,7 +18,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNANetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -38,7 +38,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNANetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -58,7 +58,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNANetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 </Defs>
