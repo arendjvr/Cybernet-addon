@@ -35,4 +35,6 @@ More parts like lymphatic nodes
 
 Implants related to other mods 
 
+Disease resistance enhancer (expensive)
+
 More custom Stats (once i learn C#)
