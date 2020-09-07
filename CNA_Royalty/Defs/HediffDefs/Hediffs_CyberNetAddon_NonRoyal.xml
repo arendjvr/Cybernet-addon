@@ -156,4 +156,83 @@
             </li>
         </stages>
     </HediffDef>
+
+     <HediffDef ParentName="CNHediffOther">
+        <defName>CNAPanzerSkinGland</defName>
+        <label>Panzer Skin Gland</label>
+        <labelNoun>A Panzer Skin Gland</labelNoun>
+        <description>(discription later)</description>
+        <spawnThingOnRemoved>CNAPanzerSkinGland</spawnThingOnRemoved>
+        <comps>
+            <li Class="CyberNet.HediffCompPropertiesCyberNetImplant">
+                <compClass>CyberNet.HediffCompCyberNetImplant</compClass>
+                <DefaultSeverity>1</DefaultSeverity>
+                <BandwidthUsage>3.50</BandwidthUsage>
+                <ProcessorUsage>2.75</ProcessorUsage>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>disconnected</label>
+                <minSeverity>0</minSeverity>
+                <statOffsets>
+                    <ArmorRating_Sharp>0</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0</ArmorRating_Blunt>
+                    <ArmorRating_Heat>0</ArmorRating_Heat>
+                    <PawnBeauty>-4</PawnBeauty>
+                </statOffsets>
+            </li>
+            <li>
+                <label>throttled</label>
+                <minSeverity>0.5</minSeverity>
+                <statOffsets>
+                    <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+                    <ArmorRating_Heat>0.15</ArmorRating_Heat>
+                    <PawnBeauty>-3</PawnBeauty>
+                </statOffsets>
+            </li>
+            <li>
+                <label>sluggish</label>
+                <minSeverity>0.75</minSeverity>
+                    <statOffsets>
+                        <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+                        <ArmorRating_Heat>0.40</ArmorRating_Heat>
+                        <PawnBeauty>-2</PawnBeauty>
+                    </statOffsets>
+            </li>
+            <li>
+                <label>connected</label>
+                <minSeverity>1</minSeverity>
+                    <statOffsets>
+                        <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+                        <ArmorRating_Heat>0.55</ArmorRating_Heat>
+                        <PawnBeauty>0</PawnBeauty>
+                    </statOffsets>
+            </li>
+            <li>
+                <label>overclocked</label>
+                <minSeverity>1.15</minSeverity>
+                    <statOffsets>
+                        <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+                        <ArmorRating_Heat>0.85</ArmorRating_Heat>
+                        <PawnBeauty>0</PawnBeauty>
+                    </statOffsets>
+            </li>
+            <li>
+                <label>supercharged</label>
+                <minSeverity>1.3</minSeverity>
+                    <statOffsets>
+                        <ArmorRating_Sharp>1</ArmorRating_Sharp>
+                        <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+                        <ArmorRating_Heat>1.25</ArmorRating_Heat>
+                        <PawnBeauty>1</PawnBeauty>
+                    </statOffsets>
+            </li>
+        </stages>
+        <tags><li>ArmorGland</li></tags>
+    </HediffDef>
 </Defs>
