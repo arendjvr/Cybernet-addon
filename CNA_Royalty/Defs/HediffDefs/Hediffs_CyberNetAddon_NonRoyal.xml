@@ -106,6 +106,7 @@
                     <totalBleedFactor>0.35</totalBleedFactor>
             </li>
         </stages>
+        <tags><li>CNACoagulators</li></tags>
     </HediffDef>
 
 
@@ -155,6 +156,7 @@
                     <naturalHealingFactor>2</naturalHealingFactor>
             </li>
         </stages>
+        <tags><li>CNAHealingEnhancers</li></tags>
     </HediffDef>
 
      <HediffDef ParentName="CNHediffOther">

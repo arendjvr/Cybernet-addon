@@ -89,6 +89,9 @@
       <li>Torso</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CNANetworkedCoagulator</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>CNACoagulators</li>
+    </incompatibleWithHediffTags>
   </RecipeDef>
 
   <RecipeDef ParentName="CyberNetPartRemoval">
@@ -138,6 +141,9 @@
       <li>Torso</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CNANetworkedHealingEnhancer</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>CNAHealingEnhancers</li>
+    </incompatibleWithHediffTags>
   </RecipeDef>
 
   <RecipeDef ParentName="CyberNetPartRemoval">

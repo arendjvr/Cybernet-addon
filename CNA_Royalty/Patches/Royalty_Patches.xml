@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+     <!--This is in order to prevent networked coagulators and healing enhancers to be used with the vanilla ones-->
+    <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/HediffDef[defName="HealingEnhancer"]</xpath>
+        <value>
+            <tags><li>CNAHealingEnhancers</li></tags>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="InstallHealingEnhancer"]</xpath>
+        <value>
+            <incompatibleWithHediffTags>
+                <li>CNAHealingEnhancers</li>
+            </incompatibleWithHediffTags>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/HediffDef[defName="Coagulator"]</xpath>
+        <value>
+            <tags><li>CNACoagulators</li></tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="InstallCoagulator"]</xpath>
+        <value>
+            <incompatibleWithHediffTags>
+                <li>CNACoagulators</li>
+            </incompatibleWithHediffTags>
+        </value>
+    </Operation>
+</Patch>
