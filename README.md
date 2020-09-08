@@ -21,7 +21,7 @@ Networked coagulator & healing enhancer
 
 Flesh Adapter (increases beauty)
 
-
+Panzer Skin Gland (still needs some balancing)
 
 <h1>Plans for the future:</h1>
 
