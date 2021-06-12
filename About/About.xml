@@ -4,7 +4,7 @@
 	<name>Cybernet Part Addon</name>
 	<author>Arendjvr2000</author>
 	<supportedVersions>
-		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<packageId>Arendjvr2000.CyberNet.Addon</packageId>
 		<modDependencies>
