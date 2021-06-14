@@ -89,6 +89,9 @@
       <li>Torso</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CNANetworkedCoagulator</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>CNACoagulators</li>
+    </incompatibleWithHediffTags>
   </RecipeDef>
 
   <RecipeDef ParentName="CyberNetPartRemoval">
@@ -138,6 +141,9 @@
       <li>Torso</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CNANetworkedHealingEnhancer</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>CNAHealingEnhancers</li>
+    </incompatibleWithHediffTags>
   </RecipeDef>
 
   <RecipeDef ParentName="CyberNetPartRemoval">
@@ -147,5 +153,57 @@
     <jobString>Removing Networked Healing Enhancer</jobString>
     <workAmount>3000</workAmount>
     <removesHediff>CNANetworkedHealingEnhancer</removesHediff>
+  </RecipeDef>
+
+    <!-- Installation and uninstalment of the Panzer Skin Gland -->
+
+  <RecipeDef ParentName="SurgeryInstallImplantBase">
+    <defName>CNInstallPanzerSkinGland</defName>
+    <label>Install Panzer Skin Gland</label>
+    <description>Install a Panzer Skin Gland</description>
+    <jobString>Installing Panzer Skin Gland</jobString>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNAPanzerSkinGland</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNAPanzerSkinGland</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNAPanzerSkinGland</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>ArmorGland</li>
+    </incompatibleWithHediffTags>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetPartRemoval">
+    <defName>CNARemovePanzerSkinGland</defName>
+    <label>Remove Panzer Skin Gland</label>
+    <description>Remove Panzer Skin Gland</description>
+    <jobString>Removing Panzer Skin Gland</jobString>
+    <workAmount>3000</workAmount>
+    <removesHediff>CNAPanzerSkinGland</removesHediff>
   </RecipeDef>
 </Defs>

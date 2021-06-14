@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchTabDef>
+    <defName>CNA_ResearchTab</defName>
+    <label>CyberNet Addon</label>
+  </ResearchTabDef>
+
+    <ResearchProjectDef Name="CNAProjectBase" Abstract="True">
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <techLevel>Ultra</techLevel>
+        <tab>CNA_ResearchTab</tab>
+    </ResearchProjectDef>
+
+      <ResearchProjectDef ParentName="CNAProjectBase">
+        <defName>CNANetworkedOrgans</defName>
+        <label>Networked Organs</label>
+        <description>(text here)</description>
+        <baseCost>2000</baseCost>
+        <prerequisites>
+            <li>CNNetworkedProsthetics</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CNAProjectBase">
+        <defName>CNASpecialNetworkedOrgans</defName>
+        <label>Special Networked Organs</label>
+        <description>(text here)</description>
+        <baseCost>2500</baseCost>
+        <prerequisites>
+            <li>CNANetworkedOrgans</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+</Defs>

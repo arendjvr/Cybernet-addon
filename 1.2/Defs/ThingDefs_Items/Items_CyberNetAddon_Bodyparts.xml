@@ -3,9 +3,10 @@
 	
 	<!-- Networked (Bionic) Level Body Parts -->
 	<ThingDef ParentName="CyberNetProsthetic">
-		<defName>CNNetworkedLung</defName>
+		<defName>CNANetworkedLung</defName>
 		<label>Networked Lung</label>
 		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic Lungs, and more efficient, but requires infrastructure to function.</description>
+		<descriptionHyperlinks><RecipeDef>CNAInstallNetworkedLung</RecipeDef></descriptionHyperlinks>
 		<statBases>
 			<WorkToMake>30000</WorkToMake>
 			<Mass>1.5</Mass>
@@ -18,14 +19,15 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNANetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
 		<ThingDef ParentName="CyberNetProsthetic">
-		<defName>CNNetworkedKidney</defName>
+		<defName>CNANetworkedKidney</defName>
 		<label>Networked Kidney</label>
 		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic Kidneys, and more efficient, but requires infrastructure to function.</description>
+		<descriptionHyperlinks><RecipeDef>CNAInstallNetworkedKidney</RecipeDef></descriptionHyperlinks>
 		<statBases>
 			<WorkToMake>30000</WorkToMake>
 			<Mass>1.5</Mass>
@@ -38,14 +40,15 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNANetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
 		<ThingDef ParentName="CyberNetProsthetic">
-		<defName>CNNetworkedLiver</defName>
+		<defName>CNANetworkedLiver</defName>
 		<label>Networked Liver</label>
 		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic Livers, and more efficient, but requires infrastructure to function.</description>
+		<descriptionHyperlinks><RecipeDef>CNAInstallNetworkedLiver</RecipeDef></descriptionHyperlinks>
 		<statBases>
 			<WorkToMake>30000</WorkToMake>
 			<Mass>1.5</Mass>
@@ -58,7 +61,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNANetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 </Defs>

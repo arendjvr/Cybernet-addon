@@ -6,7 +6,10 @@
     <defName>CNAInstallNetworkedPainRegulator</defName>
     <label>Install Networked Pain Regulator</label>
     <description>Install a Networked Pain Regulator</description>
-    <descriptionHyperlinks><ThingDef>CNANetworkedPainRegulator</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks>
+    <ThingDef>CNANetworkedPainRegulator</ThingDef>
+    <HediffDef>CNANetworkedPainRegulator</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing Networked Pain Regulator</jobString>
     <workAmount>2500</workAmount>
     <ingredients>

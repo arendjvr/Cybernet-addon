@@ -2,7 +2,7 @@
 <Defs>
 
 
-    <ResearchProjectDef ParentName="CyberNetProjectBase">
+    <ResearchProjectDef ParentName="CNAProjectBase">
         <defName>CNAFleshAdapterImplant</defName>
         <label>Flesh Adaptation</label>
         <description>Further study into social interactions revealed that interactions are heavily influenced by physical appearance. By using this information your researchers discovered another purpose for the nanites.</description>
@@ -14,13 +14,12 @@
         <researchViewY>2.1</researchViewY>
     </ResearchProjectDef>
 
-    <ResearchProjectDef ParentName="CyberNetProjectBase">
+    <ResearchProjectDef ParentName="CNAProjectBase">
         <defName>CNANetworkedHealingFactors</defName>
         <label>Networked Healing Factors</label>
         <description>By combining the blood replacement research and the healing knowledge you got from the techprint. You can most certain make a networked version of the coagulator and healing enhancer.</description>
         <baseCost>4000</baseCost>
         <prerequisites>
-            <li>CNBloodReplacement</li>
             <li>HealingFactors</li>
         </prerequisites>
         <researchViewX>7.8</researchViewX>

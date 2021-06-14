@@ -62,4 +62,26 @@
 			<researchPrerequisite>CNANetworkedHealingFactors</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNAPanzerSkinGland</defName>
+		<label>Panzer Skin Gland</label>
+		<description>This implant is a Hybrid of the Flesh adapter and the empire's Stone skin gland. (further discription later)</description>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>5</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+			<CNAFleshAdapter>1</CNAFleshAdapter>
+			<StoneskinGland>1</StoneskinGland>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNAFleshAdapterImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 </Defs>

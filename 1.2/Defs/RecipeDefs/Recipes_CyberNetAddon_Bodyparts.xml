@@ -4,9 +4,13 @@
   <!-- Networked (Bionic) Level Body Parts -->
 
   <RecipeDef ParentName="CyberNetSurgery">
-    <defName>CNInstallNetworkedLung</defName>
+    <defName>CNAInstallNetworkedLung</defName>
     <label>Install Networked Lung</label>
     <description>Install a Networked Lung</description>
+    <descriptionHyperlinks>
+    <ThingDef>CNANetworkedLung</ThingDef>
+    <HediffDef>CNANetworkedLung</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing Networked Lung</jobString>
     <workAmount>2500</workAmount>
     <ingredients>
@@ -21,7 +25,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>CNNetworkedLung</li>
+            <li>CNANetworkedLung</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -32,19 +36,23 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-        <li>CNNetworkedLung</li>
+        <li>CNANetworkedLung</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Lung</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>CNNetworkedLung</addsHediff>
+    <addsHediff>CNANetworkedLung</addsHediff>
   </RecipeDef>
 
     <RecipeDef ParentName="CyberNetSurgery">
-    <defName>CNInstallNetworkedKidney</defName>
+    <defName>CNAInstallNetworkedKidney</defName>
     <label>Install Networked Kidney</label>
     <description>Install a Networked Kidney</description>
+    <descriptionHyperlinks>
+    <ThingDef>CNANetworkedKidney</ThingDef>
+    <HediffDef>CNANetworkedKidney</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing Networked Kidney</jobString>
     <workAmount>2500</workAmount>
     <ingredients>
@@ -59,7 +67,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>CNNetworkedKidney</li>
+            <li>CNANetworkedKidney</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -70,19 +78,23 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-        <li>CNNetworkedKidney</li>
+        <li>CNANetworkedKidney</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Kidney</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>CNNetworkedKidney</addsHediff>
+    <addsHediff>CNANetworkedKidney</addsHediff>
   </RecipeDef>
 
     <RecipeDef ParentName="CyberNetSurgery">
-    <defName>CNInstallNetworkedLiver</defName>
+    <defName>CNAInstallNetworkedLiver</defName>
     <label>Install Networked Liver</label>
     <description>Install a Networked Liver</description>
+    <descriptionHyperlinks>
+    <ThingDef>CNANetworkedLiver</ThingDef>
+    <HediffDef>CNANetworkedLiver</HediffDef>
+    </descriptionHyperlinks>
     <jobString>Installing Networked Liver</jobString>
     <workAmount>2500</workAmount>
     <ingredients>
@@ -97,7 +109,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>CNNetworkedLiver</li>
+            <li>CNANetworkedLiver</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -108,13 +120,13 @@
         <li>Medicine</li>
       </categories>
       <thingDefs>
-        <li>CNNetworkedLiver</li>
+        <li>CNANetworkedLiver</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Liver</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>CNNetworkedLiver</addsHediff>
+    <addsHediff>CNANetworkedLiver</addsHediff>
   </RecipeDef>
 
 </Defs>

@@ -12,7 +12,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<costList>
-            <CNNetworkedKidney>1</CNNetworkedKidney>
+            <CNANetworkedKidney>1</CNANetworkedKidney>
 			<Plasteel>10</Plasteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
@@ -20,7 +20,7 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+			<researchPrerequisite>CNASpecialNetworkedOrgans</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 </Defs>
