@@ -3,7 +3,7 @@
 	
 	<!-- Networked (Bionic) Level Body Parts -->
 	<ThingDef ParentName="CyberNetProsthetic">
-		<defName>CNAdvancedNetworkedLung</defName>
+		<defName>CNAAdvancedNetworkedLung</defName>
 		<label>Advanced Networked Lung</label>
 		<description>An advanced networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic lungs, and it's significantly more efficient. The cost comes from the infrastructure required for it to function.</description>
 		<statBases>
@@ -23,7 +23,7 @@
 	</ThingDef>
 
 		<ThingDef ParentName="CyberNetProsthetic">
-		<defName>CNAdvancedNetworkedKidney</defName>
+		<defName>CNAAdvancedNetworkedKidney</defName>
 		<label>Advanced Networked Kidney</label>
 		<description>An advanced networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic kidneys, and it's significantly more efficient. The cost comes from the infrastructure required for it to function.</description>
 		<statBases>
@@ -43,7 +43,7 @@
 	</ThingDef>
 
 		<ThingDef ParentName="CyberNetProsthetic">
-		<defName>CNAdvancedNetworkedLiver</defName>
+		<defName>CNAAdvancedNetworkedLiver</defName>
 		<label>Advanced Networked Liver</label>
 		<description>An advanced networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic livers, and it's significantly more efficient. The cost comes from the infrastructure required for it to function.</description>
 		<statBases>
